@@ -35,10 +35,14 @@ function handleDelete(index) {
     render();
 }
 
+function setTextArea() {
+    textArea.value = arr.join('\n');
+}
+
 const render = () => {
-    $('.list').innerHTML = arr
+    $('.list').innerHTML = curArr
         .map(
-            (curr, index) => `<li class="${x(curArr.includes(curr) || 'red')}">
+            (curr, index) => `<li class="item ${x(curArr.includes(curr) || 'red')}">
 				<div >${curr}</div>
                 <span onclick="handleDelete(${index})">
 					&times;
