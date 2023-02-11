@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    font-size: 20px;
+}
+.main {
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    display: flex;
+}
+.box-2 {
+    margin-left: 36px;
+    display: flex;
+    flex-direction: column;
+}
+.box-2 textarea {
+    height: 400px;
+    font-size: 28px;
+}
+.box-2 button {
+    margin-top: 20px;
+    width: 100%;
+}
+.list {
+    list-style: none;
+}
+.list li {
+    display: flex;
+    align-items: center;
+}
+.list li span {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.list li div {
+    font-size: 42px;
+}
+
+.result {
+    font-size: 48px;
+    margin-left: 24px;
+}
+
+.btn-reset {
+    margin-right: 12px;
+}
+
+input {
+    font-size: 24px;
+    padding: 3px 8px;
+}
+button {
+    height: 36px;
+    font-size: 24px;
+    width: 160px;
+}
+.red {
+    color: red;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
