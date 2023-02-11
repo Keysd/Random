@@ -40,7 +40,7 @@ function setTextArea() {
 }
 
 const render = () => {
-    $('.list').innerHTML = curArr
+    $('.list').innerHTML = arr
         .map(
             (curr, index) => `<li class="item ${x(curArr.includes(curr) || 'red')}">
 				<div >${curr}</div>
